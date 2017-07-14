@@ -1,0 +1,145 @@
+.container {
+	margin:20px auto;
+}
+
+nav.sidebar, .main{
+	-webkit-transition: margin 200ms ease-out;
+	-moz-transition: margin 200ms ease-out;
+	-o-transition: margin 200ms ease-out;
+	transition: margin 200ms ease-out;
+}
+@media (min-width: 765px) {
+
+	nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+		text-align: center;
+		width: 100%;
+		margin-left: 0px;
+	}
+	
+	nav.sidebar a{
+		padding-right: 13px;
+	}
+
+	nav.sidebar .navbar-nav > li:first-child{
+		border-top: 1px #e5e5e5 solid;
+	}
+
+	nav.sidebar .navbar-nav > li{
+		border-bottom: 1px #e5e5e5 solid;
+	}
+
+	nav.sidebar .navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+		padding: 0 0px 0 0px;
+	}
+
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+		color: #777;
+	}
+
+	nav.sidebar{
+		height: 100%;
+		margin-bottom: 0px;
+	}
+
+	nav.sidebar li {
+		width: 100%;
+	}
+
+	nav.sidebar:hover{
+		margin-left: 0px;
+	}
+
+	.forAnimate{
+		opacity: 0;
+	}
+}
+ 
+@media (min-width: 1330px) {
+
+	nav.sidebar{
+		margin-left: 0px;
+	}
+
+	nav.sidebar .forAnimate{
+		opacity: 1;
+	}
+}
+
+nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+	color: #CCC;
+	background-color: transparent;
+}
+
+nav:hover .forAnimate{
+	opacity: 1;
+}
+
+.face {
+	border:3px solid blue;
+	position:absolute;
+	display:block;
+}
+.initial_left, 
+.initial_right {
+	background:red;
+	opacity:0.5;
+	position:absolute;
+}
+.initial_left {
+	left:0px;
+}
+.final_left, 
+.final_right {
+	background:green;
+	opacity:0.5;
+	position:absolute;
+}
+
+
+.initial_top, 
+.initial_bottom {
+	background:red;
+	opacity:0.5;
+	position:absolute;
+}
+.initial_top {
+	top:0px;
+}
+.final_top, 
+.final_bottom {
+	background:green;
+	opacity:0.5;
+	position:absolute;
+}
+.holder {
+	position:relative;
+}
+.definition {
+	position:absolute;
+	background:rgba(255,255,255,0.4);
+	padding:20px 30px;
+	z-index:2;
+}
+.holder:hover .definition {
+	background:rgba(255,255,255,0.8);
+}
+.definition h3 {
+	margin-top:10px;
+}
+img {
+	margin-bottom:25px;
+}
+form {
+	margin:15px 0;
+}
