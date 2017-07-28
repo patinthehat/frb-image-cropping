@@ -10,6 +10,7 @@ config/api-config.php
 /orig/*
 assets/bootstrap*
 assets/jquery*
+index-rev-2.php
 
 # Created by https://www.gitignore.io/api/eclipse,linux,archives,macos
 

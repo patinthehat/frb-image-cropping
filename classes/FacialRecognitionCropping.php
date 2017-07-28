@@ -138,7 +138,7 @@ class FacialRecognitionCropping
     			//if final crop will be needed
     			if($this->cropData->full_crop > $this->cropData->deltas->left_right){
     				//crop the initial width
-    				$this->cropData->initial_left = $this->cropData->spaces->left_right;
+    				$this->cropData->initial_left = $this->cropData->deltas->left_right;
     			} else {
     				//crop the initial width
     				$this->cropData->final_crop_needed = false;
