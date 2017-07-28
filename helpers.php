@@ -1,6 +1,10 @@
 <?php
 
 
+function image_url($imageName, $frc)
+{
+    return "images/$imageName.jpg?r=".$frc->random_number;
+}
 
 function asset($relativeName)
 {

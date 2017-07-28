@@ -1,12 +1,15 @@
 #custom
 
-/notes
-/.settings
+_notes
+.settings
 .buildpath
 .project
 *.log
-/config/api-config.php
-
+config/api-config.php
+/orig
+/orig/*
+assets/bootstrap*
+assets/jquery*
 
 # Created by https://www.gitignore.io/api/eclipse,linux,archives,macos
 

@@ -209,7 +209,7 @@
                 <h3>Resized Image</h3>
                 <h5>Note: max-width:<?=$data->max_size;?>px</h5>
               </div>
-              <img src="images/resized.jpg?r=<?=$frc->random_number;?>" alt="Resized Image" class="img-responsive" />
+              <img src="<?= image_url('resized', $frc); ?>" alt="Resized Image" class="img-responsive" />
             </div>
 
             <!-- display resized image -->
@@ -220,7 +220,7 @@
               </div>
               <div class="holder">
                 <div class="face"></div>
-                <img src="images/resized.jpg?r=<?=$frc->random_number;?>" alt="Resized Image" class="img-responsive" />
+                <img src="<?= image_url('resized', $frc); ?>" alt="Resized Image" class="img-responsive" />
               </div>
             </div>
 
@@ -236,7 +236,7 @@
                 <div class="initial_right"></div>
                 <div class="initial_top"></div>
                 <div class="initial_bottom"></div>
-                <img src="images/resized.jpg?r=<?=$frc->random_number;?>" alt="Resized Image" class="img-responsive" />
+                <img src="<?= image_url('resized', $frc); ?>" alt="Resized Image" class="img-responsive" />
               </div>
             </div>
 
@@ -256,7 +256,7 @@
                 <div class="initial_bottom"></div>
                 <div class="final_top"></div>
                 <div class="final_bottom"></div>
-                <img src="images/resized.jpg?r=<?=$frc->random_number;?>" alt="Resized Image" class="img-responsive" />
+                <img src="<?= image_url('resized', $frc); ?>" alt="Resized Image" class="img-responsive" />
               </div>
             </div>
 
@@ -264,10 +264,10 @@
             <div class="holder">
             	<div class="definition">
             		<h3>Final Image</h3>
-                <h5><strong>Brought to you by Tomasz Mieczowski of <a href="https://www.iadb.com">IADB</a> and <a href="mail:patrick@permafrost-software.com">Patrick Organ</a></h5>
+                <h5><strong>Brought to you by Tomasz Mieczowski of <a href="https://www.iadb.com">IADB</a> and <a href="https://github.com/patinthehat/">Patrick Organ</a></h5>
                 </div>
               <div class="holder">
-                <img src="images/cropped.jpg?r=<?=$frc->random_number;?>" alt="Cropped Image" class="img-responsive" />
+                <img src="<?= image_url('cropped', $frc); ?>" alt="Cropped Image" class="img-responsive" />
               </div>
 		    </div>
           </div>
